@@ -14,5 +14,5 @@ RUN chmod +x /usr/local/bin/IraPass
 RUN mkdir -p /usr/local/bin/conf
 
 # Run the binary
-CMD ["/usr/local/epi/irapass"]
+CMD ["/usr/local/epi/IraPass"]
 
