@@ -1,12 +1,12 @@
 FROM alpine:latest
 
-WORKDIR /usr/local/epi/
+WORKDIR /usr/local/bin/
 
-COPY IraPodWatcher /usr/local/epi/IraPodWatcher
+COPY IraPodWatcher /usr/local/bin/IraPodWatcher
 
-RUN chmod +x /usr/local/epi/IraPodWatcher
+RUN chmod +x /usr/local/bin/IraPodWatcher
 
-RUN mkdir -p /usr/local/epi/conf
+RUN mkdir -p /usr/local/bin/conf
 
 CMD ["/usr/local/bin/IraPodWatcher"]
 
