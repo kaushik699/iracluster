@@ -5,7 +5,7 @@ FROM alpine:latest
 WORKDIR /usr/local/bin/
 
 # Copy the binary only
-COPY irapass /usr/local/bin/irapass
+COPY IraPass /usr/local/bin/irapass
 
 # Make it executable
 RUN chmod +x /usr/local/bin/irapass
