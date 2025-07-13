@@ -5,10 +5,10 @@ FROM alpine:latest
 WORKDIR /usr/local/bin/
 
 # Copy the binary only
-COPY IraPass /usr/local/bin/irapass
+COPY IraPass /usr/local/bin/IraPass
 
 # Make it executable
-RUN chmod +x /usr/local/bin/irapass
+RUN chmod +x /usr/local/bin/IraPass
 
 # Create conf directory (K8s will mount files here)
 RUN mkdir -p /usr/local/bin/conf
