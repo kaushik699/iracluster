@@ -8,5 +8,5 @@ RUN chmod +x /usr/local/bin/IraPodTracker
 
 RUN mkdir -p /usr/local/epi/conf
 
-CMD ["/usr/local/epi/IraPodTracker"]
+CMD ["/usr/local/bin/IraPodTracker"]
 
