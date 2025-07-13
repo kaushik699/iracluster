@@ -11,7 +11,7 @@ COPY IraPass /usr/local/bin/
 RUN chmod +x /usr/local/bin/IraPass
 
 # Create conf directory (K8s will mount files here)
-RUN mkdir -p /usr/local/bin/conf
+RUN mkdir -p /usr/local/epi/conf
 
 # Run the binary
 CMD ["/usr/local/bin/IraPass"]
