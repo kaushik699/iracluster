@@ -1,5 +1,5 @@
 # Use a minimal base image
-FROM alpine:latest
+FROM debian:bookworm-slim
 
 # Set working directory
 WORKDIR /usr/local/bin/
